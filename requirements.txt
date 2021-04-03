@@ -1,0 +1,10 @@
+matplotlib
+opencv-python
+opt-einsum
+pandas
+pytorch-lightning
+tensorboardX
+torch
+torchvision
+tqdm
+webdataset
