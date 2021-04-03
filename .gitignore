@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# datasets, model outputs, power-spectrum fits and classifier outputs
+datasets/
+output/
+fits/
+bash_scripts/
