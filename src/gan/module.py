@@ -20,7 +20,7 @@ from pytorch_fid.fid_score import calculate_fid_given_paths
 import gan_loss
 from gp import gradient_penalty
 from settings import NUM_TRAINING_FILES
-from zero_insert_module import PadWithin
+#from zero_insert_module import PadWithin
 
 
 
@@ -507,5 +507,5 @@ if __name__ == "__main__":
     d = ConvDiscriminator()
     print(d)
 
-    dcgan = DCGAN()
+    dcgan = GAN()
     print(dcgan)
