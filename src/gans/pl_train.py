@@ -142,7 +142,7 @@ def main():
                                             version = args.setup_name )
 
     # Create lightning training module
-    accelerator = None if args.gpus == 1 else 'ddp'
+    accelerator = None if args.gpus == 1 else 'dp'
     trainer = pl.Trainer(accelerator=accelerator,
                         gpus = args.gpus, 
                         max_epochs = args.epochs, 

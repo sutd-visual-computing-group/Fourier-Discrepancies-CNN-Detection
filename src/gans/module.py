@@ -1,7 +1,7 @@
 # General modules
 import functools
 from collections import OrderedDict
-import math, os, PIL
+import math, os, PIL, time
 import numpy as np
 from tqdm import tqdm
 
@@ -426,12 +426,13 @@ class GAN(LightningModule):
 
         # Calculate FID
         paths = [ self.fid_ref_data_dir, gen_samples_dir ]
-        device = torch.device('cuda:0' if (torch.cuda.is_available()) else 'cpu')
+        device = torch.device('cuda' if (torch.cuda.is_available()) else 'cpu')
 
         fid = calculate_fid_given_paths(paths,
                                 self.inference_batch_size//4,
                                 device,
                                 2048)
+
         self.log('fid10k', fid, on_step=False, on_epoch=True, prog_bar=True, logger=True)
 
 
