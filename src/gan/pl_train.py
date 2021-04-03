@@ -29,6 +29,7 @@ from dataset import CelebADataModule
 from module import GAN
 
 
+
 def main():
     # > Setup command line arguments
     parser = argparse.ArgumentParser()
@@ -86,10 +87,8 @@ def main():
     # Resume training if checkpoints already exist
     if os.path.exists(ckpt_dir) and len(os.listdir(ckpt_dir)) > 0 :
         ckpt_files = glob.glob(ckpt_dir+'/*')
-        #print(ckpt_files)
         latest_ckpt = max(ckpt_files, key=os.path.getctime)
         resume_from_checkpoint = latest_ckpt
-        print(resume_from_checkpoint)
     else:
         resume_from_checkpoint = None
     
@@ -135,7 +134,7 @@ def main():
     callbacks = [   LearningRateMonitor(logging_interval="epoch"), 
                     GPUStatsMonitor(),
                     ModelCheckpoint(dirpath=ckpt_dir, filename='{epoch}-{fid10k:.2f}', save_top_k=5, monitor='fid10k'),
-                    EarlyStopping(monitor='fid10k', min_delta=0.00, patience=10, verbose=True, mode='min'),
+                    EarlyStopping(monitor='fid10k', min_delta=0.00, patience=5, verbose=True, mode='min'),
                 ]
 
     tb_logger = pl_loggers.TensorBoardLogger(args.output_dir, 
