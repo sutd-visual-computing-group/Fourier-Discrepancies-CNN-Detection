@@ -16,6 +16,7 @@ import pytorch_lightning as pl
 from dataset_tool import load_webdataset_for_gan
 
 
+
 class CelebADataModule(pl.LightningDataModule):
     """
     Pytorch Lightning Data module for CelebA dataset.
@@ -34,7 +35,6 @@ class CelebADataModule(pl.LightningDataModule):
         self.resize = resize
         self.image_transform = image_transform
         self.num_files = num_files
-
         self.batch_size = batch_size
         self.num_workers = num_workers
 
