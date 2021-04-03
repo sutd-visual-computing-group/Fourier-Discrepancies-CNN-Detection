@@ -173,6 +173,10 @@ def create_tars(    img_dir: str,
     tar_save_dir = os.path.join(save_dir, tar_save_suffix)
     os.makedirs(tar_save_dir, exist_ok=True)
 
+    # Move tars inside train directory
+    tar_save_dir = os.path.join(tar_save_dir, 'train')
+    os.makedirs(tar_save_dir, exist_ok=True)
+
     # Decide maximum files per tar
     maximum_files_per_tar = int(math.ceil( len(file_paths)/max_tar ))
 

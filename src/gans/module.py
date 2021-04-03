@@ -426,7 +426,7 @@ class GAN(LightningModule):
 
         # Calculate FID
         paths = [ self.fid_ref_data_dir, gen_samples_dir ]
-        device = torch.device('cuda' if (torch.cuda.is_available()) else 'cpu')
+        device = torch.device('cuda:0' if (torch.cuda.is_available()) else 'cpu')
 
         fid = calculate_fid_given_paths(paths,
                                 self.inference_batch_size//4,

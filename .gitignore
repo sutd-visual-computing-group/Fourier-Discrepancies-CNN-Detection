@@ -134,3 +134,7 @@ datasets/
 output/
 fits/
 bash_scripts/
+
+
+# Pytorch FID
+pytorch_fid/
