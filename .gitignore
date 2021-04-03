@@ -133,8 +133,8 @@ dmypy.json
 datasets/
 output/
 fits/
-bash_scripts/
+# bash_scripts/
 
 
 # Pytorch FID
-pytorch_fid/
+# pytorch_fid/
