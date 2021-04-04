@@ -1,10 +1,10 @@
-matplotlib
-opencv-python
-opt-einsum
-pandas
-pytorch-lightning
-tensorboardX
-torch
-torchvision
-tqdm
-webdataset
+matplotlib==3.3.4
+opencv-python==4.4.0.46
+opt-einsum==3.2.1
+pandas==0.25.0
+pytorch-lightning==1.2.3
+tensorboardX==2.1
+torch==1.8.0
+torchvision==0.9.0
+tqdm==4.59.0
+webdataset @ git+https://github.com/tmbdev/webdataset.git@a31cd1418c4633f69772c8591a9db39cbd571ab2
