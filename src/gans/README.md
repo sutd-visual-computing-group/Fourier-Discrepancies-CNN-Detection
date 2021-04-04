@@ -26,21 +26,26 @@ For all reported CelebA experiments,
 
 ## Running the Code
 
-Create a new virtual environment and install all the dependencies
+1. Create a new virtual environment and install all the dependencies
 
-` pip install -r requirements.txt`
+   ` pip install -r requirements.txt`
 
-Create CelebA tar archives dataset. We also require a reference set of 10k CelebA images to measure FID during training 
 
-`python dataset_tool.py --img_dir <path_to_celeba_images> --save_dir <location_to_save_tar_files> --max_tar <maximum_number_of_tar_files> --dataset_name <celeba> --create_fid_10k_set <True>`
 
-To train GAN models,
+2. Download CelebA dataset from [here](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 
-For DCGAN, run `bash bash_scripts/dcgan_train_celeba.sh`
 
-For LSGAN, run `bash bash_scripts/lsgan_train_celeba.sh`
 
-For WGAN-GP, run `bash bash_scripts/wgan-gp_train_celeba.sh`
+3. Create CelebA tar archives dataset. We also require a reference set of 10k CelebA images to measure FID during training 
+
+   `python dataset_tool.py --img_dir <path_to_celeba_images> --save_dir <location_to_save_tar_files> --max_tar <maximum_number_of_tar_files> --dataset_name <celeba> --create_fid_10k_set <True>`
+
+
+
+4. To train GAN models,
+   - For DCGAN, run `bash bash_scripts/dcgan_train_celeba.sh`
+   - For LSGAN, run `bash bash_scripts/lsgan_train_celeba.sh`
+   - For WGAN-GP, run `bash bash_scripts/wgan-gp_train_celeba.sh`
 
 
 
@@ -66,7 +71,7 @@ For WGAN-GP, run `bash bash_scripts/wgan-gp_train_celeba.sh`
 
 ## StarGAN Experiments
 
-For reported StarGAN experiments, we use the official repository [[3]](#3) with default hyper-parameters.
+For reported StarGAN experiments, we use the official repository [[3]](#3) with default hyper-parameters. We include a script illustrating on how to change last feature map scaling for StarGAN Generator architecture. 
 
 
 
