@@ -35,19 +35,27 @@ Through this study, we show that high frequency Fourier spectrum decay discrepan
 
 **GAN  :** This is written in Pytorch. This codebase leverages on Pytorch Lightning [[1]](#1) module to efficiently scale our GAN training to multi-GPU infrastructure. We also use Webdataset [[2]](#2) (Pytorch Iterable Dataset implementation) that allows efficient access to datasets stored in POSIX tar archives using only sequential disk access. We also provide the Docker file to run our code. The codebase is clearly documented with bash file execution points exposing all required arguments and hyper-parameters.
 
+- [x] Pytorch
+- [x] Pytorch Lightning [[1]](#1)
+- [x] WebDataset [[2]](#2)
+- [x] Multi-GPU training
+- [x] DockerFile
+
 
 
 **Fourier Synthetic Image classifier :** The code uses high frequency features extracted using the official matlab implementation by Dzanic et al. [[3]](#3). The matlab code can be found [[4]](#4). The code is clearly documented.
 
 
 
+
+
 ## Running the code
 
-**GAN :** Clear steps on how to run and reproduce our results for DCGAN, LSGAN, WGAN-GP and StarGAN experiments can be found at [src/gans/README.md](src/gans/README.md)
-
-
+**GAN :** Clear steps on how to run and reproduce our results for DCGAN, LSGAN, WGAN-GP and StarGAN experiments can be found at [src/gans/README.md](src/gans/README.md). 
 
 **Fourier Synthetic Image classifier :** Clear steps on how to run and reproduce our results for KNN, SVM and MLP classfier experiments using high frequency features extracted from Dzanic et al work can be found at [src/classifiers/README.md](src/classifiers/README.md)
+
+
 
 
 
@@ -58,6 +66,8 @@ Through this study, we show that high frequency Fourier spectrum decay discrepan
 |  DCGAN  |  <img src="/assets/gan_BASELINE.png">  |  <img src="/assets/gan_N.1.5.png">  |  <img src="/assets/gan_B.1.5.png">  |  <img src="/assets/gan_Z.1.5.png">  |
 |  LSGAN  | <img src="/assets/lsgan_BASELINE.png"> | <img src="/assets/lsgan_N.1.5.png"> | <img src="/assets/lsgan_B.1.5.png"> | <img src="/assets/lsgan_Z.1.5.png"> |
 | WGAN-GP | <img src="/assets/wgan_BASELINE.png">  | <img src="/assets/wgan_N.1.5.png">  | <img src="/assets/wgan_B.1.5.png">  | <img src="/assets/wgan_Z.1.5.png">  |
+
+
 
 
 
@@ -74,12 +84,21 @@ Through this study, we show that high frequency Fourier spectrum decay discrepan
 
 
 
+
+
 ## Acknowledgements
 
 We gratefully acknowledge the following works:
 
-- https://github.com/LynnHo/DCGAN-LSGAN-WGAN-GP-DRAGAN-Pytorch
-- https://github.com/mseitzer/pytorch-fid
+- DCGAN / LSGAN/ WGAN-GP : https://github.com/LynnHo/DCGAN-LSGAN-WGAN-GP-DRAGAN-Pytorch
+- Pytorch FID : https://github.com/mseitzer/pytorch-fid
+- Pytorch Lightning : https://github.com/PyTorchLightning/pytorch-lightning
+- WebDataset : https://github.com/tmbdev/webdataset
+- StarGAN : https://github.com/yunjey/stargan
+- Spectral Regularization : https://github.com/cc-hpc-itwm/UpConv
+- High frequency spectral features extraction code : https://github.com/tarikdzanic/FourierSpectrumDiscrepancies
+
+
 
 
 
