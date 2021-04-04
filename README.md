@@ -6,8 +6,10 @@
     Ngai&#8209;Man&nbsp;Cheung</br>
 Singapore University of Technology and Design (SUTD)<br/>
 <em>To appear in CVPR&nbsp;2021&nbsp;(Oral)</br></em>
-
-[Project](https://keshik6.github.io/Fourier-Discrepancies-CNN-Detection/) | [CVPR Paper](https://arxiv.org/abs/2103.17195) | [GAN Models](https://drive.google.com/drive/folders/123RpZhytXBrJQyHg_0f46W-Qv3t5Hwsl?usp=sharing)
+<a href="https://keshik6.github.io/Fourier-Discrepancies-CNN-Detection/" title="Project" target="_blank" rel="nofollow">Project</a> |
+<a href="https://arxiv.org/abs/2103.17195" title="CVPR Paper" target="_blank" rel="nofollow">CVPR Paper</a> |
+<a href="https://drive.google.com/drive/folders/123RpZhytXBrJQyHg_0f46W-Qv3t5Hwsl?usp=sharing" title="GAN Models" target="_blank" rel="nofollow">GAN Models</a>
+</p>
 
 
 
