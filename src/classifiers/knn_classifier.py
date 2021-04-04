@@ -174,7 +174,7 @@ def train_one_knn_and_test( dataset,
 
 def train_multiple_knns(model_str, num_experiments, num_samples, split):
     """
-    Train 1 KNN classifier (k=5) and test. ALl results are recorded in a csv file
+    Train multiple KNN classifier (k=5) and test. ALl results are recorded in a csv file
     
     Args:
         model_str           : Used to identify GAN 
