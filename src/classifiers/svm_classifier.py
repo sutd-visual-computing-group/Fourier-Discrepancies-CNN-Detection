@@ -10,8 +10,9 @@ import os, math
 import numpy as np
 
 # Scikit-learn/ scipy libraries
-from sklearn.neighbors import KNeighborsClassifier
+from sklearn import svm
 from sklearn import preprocessing
+from sklearn import metrics
 from scipy.io import loadmat
 
 # Other modules
