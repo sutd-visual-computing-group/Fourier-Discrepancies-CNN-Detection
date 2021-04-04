@@ -86,10 +86,7 @@ We gratefully acknowledge the following works:
 ## References
 
 <a id="1">[1]</a> https://www.pytorchlightning.ai/
-
 <a id="2">[2]</a> https://github.com/tmbdev/webdataset
-
 <a id="3">[3]</a> Fourier Spectrum Discrepancies in Deep Network Generated Images, Tarik Dzanic, Karan Shah, and Freddie D. Witherden, In NeurIPS, 2020
-
 <a id="4">[4]</a> https://github.com/tarikdzanic/FourierSpectrumDiscrepancies)
 
