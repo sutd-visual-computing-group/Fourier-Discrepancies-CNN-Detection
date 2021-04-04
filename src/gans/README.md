@@ -71,7 +71,7 @@ For all reported CelebA experiments,
 
 ## StarGAN Experiments
 
-For reported StarGAN experiments, we use the official repository [[3]](#3) with default hyper-parameters. We include a script illustrating on how to change last feature map scaling for StarGAN Generator architecture. 
+For reported StarGAN experiments, we use the official repository [[3]](#3) with default hyper-parameters. We include a script illustrating on how to change last feature map scaling for StarGAN Generator architecture.  Refer to `stargan_v1_model.py`
 
 
 
