@@ -22,11 +22,11 @@ For reported StarGAN experiments, we use default hyper-parameters used in the of
 
 ## About the Code
 
-The code is written in Pytorch. This codebase leverages on Pytorch Lightning[^1] module to efficiently scale our GAN training to multi-GPU infrastructure. We also use Webdataset (Pytorch Iterable Dataset implementation) that allows efficient access to datasets stored in POSIX tar archives using only sequential disk access. We also provide the DockerFile to run the GAN training in HPC systems. The codebase is clearly documented with bash file execution points exposing all required arguments and hyper-parameters.
+The code is written in Pytorch. This codebase leverages on Pytorch Lightning [[1]](#1) module to efficiently scale our GAN training to multi-GPU infrastructure. We also use Webdataset [[2]](#2) (Pytorch Iterable Dataset implementation) that allows efficient access to datasets stored in POSIX tar archives using only sequential disk access. We also provide the DockerFile to run the GAN training in HPC systems. The codebase is clearly documented with bash file execution points exposing all required arguments and hyper-parameters.
 
 - [x] Pytorch
-- [x] Pytorch Lightning [^1]
-- [x] WebDataset [^2]
+- [x] Pytorch Lightning [[1]](#1)
+- [x] WebDataset [[2]](#2)
 - [x] Multi-GPU training
 - [x] DockerFile
 
@@ -58,8 +58,9 @@ For WGAN-GP, run `bash bash_scripts/wgan-gp_train_celeba.sh`
 
 ## References
 
-[^1]: https://www.pytorchlightning.ai/ 
-[^2]: https://github.com/tmbdev/webdataset
+<a id="1">[1]</a> https://www.pytorchlightning.ai/ 
+
+<a id="2">[2]</a> https://github.com/tmbdev/webdataset
 
 
 
