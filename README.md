@@ -27,7 +27,7 @@ Through this study, we show that high frequency Fourier spectrum decay discrepan
 
 
 
-<img src="/assets/web.jpg" />
+<img src="/assets/web.JPG" />
 
 
 
