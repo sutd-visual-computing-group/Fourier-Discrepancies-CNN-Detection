@@ -1,29 +1,15 @@
-<h1 class="display-1" style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;">
+<h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;">
                 A Closer Look at Fourier Spectrum Discrepancies for</br>CNN-generated Images Detection</h1>
-<p class="lead" style="text-align:center;font-size:1.25em;">
+<p align='center' style="text-align:center;font-size:1.25em;">
     Keshigeyan&nbsp;Chandrasegaran&nbsp;/&nbsp;
     Ngoc&#8209;Trung&nbsp;Tran&nbsp;/&nbsp;
     Ngai&#8209;Man&nbsp;Cheung</br>
 Singapore University of Technology and Design (SUTD)<br/>
 <em>To appear in CVPR&nbsp;2021&nbsp;(Oral)</br></em>
-<div class="col-md-4 text-center">
-   	<a href="https://keshik6.github.io/Fourier-Discrepancies-CNN-Detection/" title="Project" target="_blank" rel="nofollow">
-        <span class="fa fa-print" style="font-size:40px;color:black;"> </span>
-        <h3 style="text-align:center;font-size:1.25em;">Project</h3>
-    </a>
-</div>
+
+[Project](https://keshik6.github.io/Fourier-Discrepancies-CNN-Detection/) | [CVPR Paper](https://arxiv.org/abs/2103.17195) | [GAN Models](https://drive.google.com/drive/folders/123RpZhytXBrJQyHg_0f46W-Qv3t5Hwsl?usp=sharing)
 
 
-   	<a href="https://arxiv.org/abs/2103.17195" title="CVPR Paper" target="_blank" rel="nofollow">
-        <span class="fa fa-print" style="font-size:40px;color:black;"> </span>
-        <h3 style="text-align:center;font-size:1.25em;">CVPR Paper</h3>
-    </a>
-<div class="col-md-4 text-center">
-   	<a href="https://drive.google.com/drive/folders/123RpZhytXBrJQyHg_0f46W-Qv3t5Hwsl?usp=sharing" title="GAN Models" target="_blank" rel="nofollow">
-        <span class="fa fa-print" style="font-size:40px;color:black;"> </span>
-        <h3 style="text-align:center;font-size:1.25em;">GAN models</h3>
-    </a>
-</div>
 
 ## Abstract
 
