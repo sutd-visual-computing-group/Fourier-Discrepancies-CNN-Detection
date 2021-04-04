@@ -133,7 +133,7 @@ dmypy.json
 datasets/
 output/
 fits/
-assets/
+#assets/
 # bash_scripts/
 
 
