@@ -65,15 +65,13 @@ Through this study, we show that high frequency Fourier spectrum decay discrepan
 
 ## GAN Samples
 
-|   GAN   |                Baseline                |                N.1.5                |                B.1.5                |                Z.1.5                |
-| :-----: | :------------------------------------: | :---------------------------------: | :---------------------------------: | :---------------------------------: |
-|  DCGAN  |  <img src="/assets/gan_BASELINE.png">  |  <img src="/assets/gan_N.1.5.png">  |  <img src="/assets/gan_B.1.5.png">  |  <img src="/assets/gan_Z.1.5.png">  |
-|  LSGAN  | <img src="/assets/lsgan_BASELINE.png"> | <img src="/assets/lsgan_N.1.5.png"> | <img src="/assets/lsgan_B.1.5.png"> | <img src="/assets/lsgan_Z.1.5.png"> |
-| WGAN-GP | <img src="/assets/wgan_BASELINE.png">  | <img src="/assets/wgan_N.1.5.png">  | <img src="/assets/wgan_B.1.5.png">  | <img src="/assets/wgan_Z.1.5.png">  |
+|   GAN   |                Baseline                 |                N.1.5                 |                B.1.5                 |                Z.1.5                 |
+| :-----: | :-------------------------------------: | :----------------------------------: | :----------------------------------: | :----------------------------------: |
+|  DCGAN  |  <img src="./assets/gan_BASELINE.png">  |  <img src="./assets/gan_N.1.5.png">  |  <img src="./assets/gan_B.1.5.png">  |  <img src="./assets/gan_Z.1.5.png">  |
+|  LSGAN  | <img src="./assets/lsgan_BASELINE.png"> | <img src="./assets/lsgan_N.1.5.png"> | <img src="./assets/lsgan_B.1.5.png"> | <img src="./assets/lsgan_Z.1.5.png"> |
+| WGAN-GP | <img src="./assets/wgan_BASELINE.png">  | <img src="./assets/wgan_N.1.5.png">  | <img src="./assets/wgan_B.1.5.png">  | <img src="./assets/wgan_Z.1.5.png">  |
 
-
-
-
+###### 
 
 ## Citation
 
