@@ -5,7 +5,7 @@
     <a href="https://scholar.google.com/citations?hl=en&user=9SE3GYMAAAAJ" target="_blank" style="text-decoration: none;">Ngoc&#8209;Trung&nbsp;Tran</a>&nbsp;/&nbsp;
     <a href="https://sites.google.com/site/mancheung0407/" target="_blank" style="text-decoration: none;">Ngai&#8209;Man&nbsp;Cheung</a></br>
 Singapore University of Technology and Design (SUTD)<br/>
-<em>To appear in CVPR&nbsp;2021&nbsp;(Oral)</br></em>
+<em>CVPR&nbsp;2021&nbsp;(Oral)</br></em>
 <a href="https://keshik6.github.io/Fourier-Discrepancies-CNN-Detection/" title="Project" target="_blank" rel="nofollow" style="text-decoration: none;">Project</a> |
 <a href="https://arxiv.org/abs/2103.17195" title="CVPR Paper" target="_blank" rel="nofollow" style="text-decoration: none;">CVPR Paper</a> |
 <a href="https://drive.google.com/drive/folders/123RpZhytXBrJQyHg_0f46W-Qv3t5Hwsl?usp=sharing" title="GAN Models" target="_blank" rel="nofollow" style="text-decoration: none;">GAN Models</a>
