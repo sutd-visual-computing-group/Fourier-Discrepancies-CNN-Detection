@@ -109,11 +109,13 @@ All pretrained DCGAN, LSGAN and WGAN-GP CelebA models are available [here](https
 ## Citation
 
 ```markdown
-@InProceedings{Chandrasegaran2021,
-    author        = {Keshigeyan Chandrasegaran and Ngoc-Trung Tran and Ngai-Man Cheung},
-    booktitle     = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    title         = {A Closer Look at Fourier Spectrum Discrepancies for CNN-generated Images Detection},
-    year          = {2021}
+@InProceedings{Chandrasegaran_2021_CVPR,
+    author    = {Chandrasegaran, Keshigeyan and Tran, Ngoc-Trung and Cheung, Ngai-Man},
+    title     = {A Closer Look at Fourier Spectrum Discrepancies for CNN-Generated Images Detection},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {7200-7209}
 }
 ```
 
